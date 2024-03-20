@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__links" href="index.html">Home</a>
+
+
+            <a class="cabecalho__menu__links" href="about.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível
@@ -23,14 +30,19 @@
             </p>
 
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="http://instagram.com/gu1lhermefogaca">Instagram</a>
-                <a class="apresentacao__links__link" href="http://github.com/guilhermefogacadev">Github</a>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <a  class="apresentacao__links__link" href="http://instagram.com/gu1lhermefogaca"> <img src="assets/instagram.png" >Instagram</a>
+                <a class="apresentacao__links__link" href="http://github.com/guilhermefogacadev"><img src="assets/github.png" >Github</a>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/guilhermefoga%C3%A7a/"><img src="assets/linkedin.png" >Linkedin</a>
+                <a class="apresentacao__links__link" href="http://x.com/gu1lhermefogaca"><img src="assets/twitter-novo.png">Twitter</a>
             </div>
 
         </section>
-        <img src="eu.jpg" alt="Foto do Programador">
+        <img class="foto" src="/assets/eu.jpg" alt="Foto do Programador">
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvolvido por Fogaça Corporation</p>
+    </footer>
 </body>
 
 </html>
