@@ -46,6 +46,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao__conteudo{
@@ -86,12 +87,11 @@ body{
     border:2px solid var(--cor-tercearia);
     width: 50%  ;
     text-align: center;
-    border-radius: 16px;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0px;
     text-decoration: none;
-    color:  var();
+    color:  var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
     border-radius: 8px;
 }
@@ -113,3 +113,19 @@ body{
     width: 50%;
 }
 
+@media (max-width: 1200px) {
+    .cabecalho{
+        padding:10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
